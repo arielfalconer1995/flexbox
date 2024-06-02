@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <nav class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="./pages/flexbox.html">Flexbox</a></li>
+            <li><a href="./pages/css_grid.html">CSS Grid</a></li>
+            <li><a href="./pages/bootstrap.html">Bootstrap</a></li>
+            <li><a href="./pages/tailwind_css.html">Tailwind CSS</a></li>
+            <li><a href="./pages/javascript.html">JavaScript</a></li>
+        </nav>
+    </div>
+    <h1>Flexbox</h1><br>
+    <h3>Principales propiedades</h3><br>
+    <h3>1. display: flex</h3>
+    <p>Para poder trabajar correctamente con esta propiedad todos los elementos que quiero que usen flexbox, deberán estar contenidos dentro de una caja principal.</p>
+
+    <section id="layout">
+        <div class="caja red">
+            Primera caja
+        </div>
+        <div class="caja green">
+            Segunda caja
+        </div>
+        <div class="caja blue">
+            Tercera caja
+        </div>
+        <div class="caja orange">
+            Cuarta caja
+        </div>
+    </section>
+
+    <p>Hola, soy un breve parrafo corto y conciso.</p>
+    <hr><br>
+    <h3>2. display: inline-flex</h3>
+    <p>Esta propiedad se adapta al contenido que tiene dentro. Propiedades como "width" pasaran a estar en automatico. Si colocamos varias cajas, se adaptara al tamaño del contenido, tal cual se muestra en este ejemplo.</p>
+
+    <section id="layout2">
+        <div class="caja red">
+            Primera caja
+        </div>
+        <div class="caja green">
+            Segunda caja
+        </div>
+        <div class="caja blue">
+            Tercera caja
+        </div>
+        <div class="caja orange">
+            Cuarta caja
+        </div>
+        <div class="caja blue">
+            Caja adicional
+        </div>
+        <div class="caja orange">
+            Caja adicional
+        </div>
+    </section>
+
+    <p>Hola, soy un breve parrafo corto y conciso.</p>
+    <hr><br>
+
+    <h3>3. flex-direction: row</h3>
+    <p>Esta propiedad nos permite direccionar los elementos de la fila para que estén uno al lado del otro.</p>
+    <section id="layout3">
+        <div class="caja red">
+            Primera caja
+        </div>
+        <div class="caja green">
+            Segunda caja
+        </div>
+        <div class="caja blue">
+            Tercera caja
+        </div>
+        <div class="caja orange">
+            Cuarta caja
+        </div>
+    </section>
+
+    <p>Hola, soy un breve parrafo corto y conciso.</p>
+    <hr><br>
+
+    <h3>4. flex-direction: column</h3>
+    <p>Esta propiedad nos permite convertir los elementos en una columna.</p>
+    <section id="layout4">
+        <div class="caja red">
+            Primera caja
+        </div>
+        <div class="caja green">
+            Segunda caja
+        </div>
+        <div class="caja blue">
+            Tercera caja
+        </div>
+        <div class="caja orange">
+            Cuarta caja
+        </div>
+    </section>
+
+    <p>Hola, soy un breve parrafo corto y conciso.</p>
+    <hr><br>
+
+    <h3>5. flex-direction: row-reverse</h3>
+    <p>Esta propiedad nos permite invertir o cambiar el orden de los elementos desde el final al principio de su orden de la fila.</p>
+    <section id="layout5">
+        <div class="caja red">
+            Primera caja
+        </div>
+        <div class="caja green">
+            Segunda caja
+        </div>
+        <div class="caja blue">
+            Tercera caja
+        </div>
+        <div class="caja orange">
+            Cuarta caja
+        </div>
+    </section>
+
+    <p>Hola, soy un breve parrafo corto y conciso.</p>
+    <hr><br>
+
+    <h3>6. flex-direction: column-reverse</h3>
+    <p>Esta propiedad nos permite invertir o cambiar el orden de los elementos desde el final al principio de su orden de la columna.</p>
+    <section id="layout6">
+        <div class="caja red">
+            Primera caja
+        </div>
+        <div class="caja green">
+            Segunda caja
+        </div>
+        <div class="caja blue">
+            Tercera caja
+        </div>
+        <div class="caja orange">
+            Cuarta caja
+        </div>
+    </section>
+
+    <p>Hola, soy un breve parrafo corto y conciso.</p>
+    <hr><br>
+
+    <h3>7. flex-direction: unset</h3>
+    <p>Esta propiedad nos permite direccionar los elementos de la fila para que estén uno al lado del otro.</p>
+    <section id="layout7">
+        <div class="caja red">
+            Primera caja
+        </div>
+        <div class="caja green">
+            Segunda caja
+        </div>
+        <div class="caja blue">
+            Tercera caja
+        </div>
+        <div class="caja orange">
+            Cuarta caja
+        </div>
+    </section>
+</body>
+</html>

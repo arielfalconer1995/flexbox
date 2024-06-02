@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.menu {
+    display: inline-flex;
+    justify-content: space-around;
+}
+/* #ID LAYOUTS */
+#layout {
+    display: flex;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+#layout2 {
+    display: inline-flex;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+#layout3 {
+    display: inline-flex;
+    border: 3px solid black;
+    padding: 5px;
+    flex-direction: row;
+}
+
+#layout4 {
+    display: inline-flex;
+    border: 3px solid black;
+    padding: 5px;
+    flex-direction: column;
+}
+
+#layout5 {
+    display: inline-flex;
+    border: 3px solid black;
+    padding: 5px;
+    flex-direction: row-reverse;
+}
+
+#layout6 {
+    display: inline-flex;
+    border: 3px solid black;
+    padding: 5px;
+    flex-direction: column-reverse;
+}
+
+#layout7 {
+    display: inline-flex;
+    border: 3px solid black;
+    padding: 5px;
+    flex-direction: unset;
+}
+
+.caja{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color:white;
+    padding: 20px;
+    border: 4px solid #222;
+    margin: 10px;
+    background: gray;
+}
+
+.red{
+    background: red;
+}
+.green{
+    background: green;
+}
+.blue{
+    background: blue;
+}
+.orange{
+    background: orange;
+}
